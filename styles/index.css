@@ -1,5 +1,11 @@
 @tailwind base;
-
+/* estilos base (aplicados a los elementos) */
 @tailwind components;
-
+/* aquí van nuestras clases de componentes
+(extraidos, podemos usar @apply para
+ aplicar estilos de tailwind */
+.btn-blue {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
 @tailwind utilities;
+/* nuestras utilidades extra */
