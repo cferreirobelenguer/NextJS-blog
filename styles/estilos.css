@@ -1,0 +1,25 @@
+/*Estilos de fuentes*/
+@font-face {
+    font-family: "slackey";
+    src: url("../assets/fonts/Slackey.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*Componente header*/
+.portada{
+    background-image: url('../assets/images/dogs.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+}
+#letraLogo{
+    font-family: 'slackey';
+    
+}
+/*Componente footer*/
+#letraFooter{
+    font-family: 'slackey';
+}

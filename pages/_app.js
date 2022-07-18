@@ -1,5 +1,6 @@
 import '../styles/index.css';
 import Head from 'next/head';
+import '../styles/estilos.css'
 
 //Head
 
