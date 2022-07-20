@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import huella from '../assets/images/huella.svg'
+
 const Footer=()=>{
     return(
         <div className="contenedorFooter">
@@ -5,7 +8,12 @@ const Footer=()=>{
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <span className="ml-3 text-gray-xl" id="letraFooter">Dog Blog</span>
+                    <Image       
+                        src={huella}
+                        alt="imagen logo portada"
+                        width={15}
+                        height={15}
+                    />&nbsp;<span className="ml-3 text-black-xl" id="letraFooter">Dog Blog</span>
                     </a>
                     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Dog Blog —
                         <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@dogblog</a>
