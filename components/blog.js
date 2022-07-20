@@ -18,6 +18,7 @@ const Blog=()=>{
     const stop=()=>{
         console.log("Se para la ejecución")
     }
+    //it shows the data only when the state is zero before rendering
     useEffect(() => {
         if (data.length == 0) {
             mostrarDatos();
