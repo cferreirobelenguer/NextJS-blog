@@ -67,13 +67,7 @@ const Blog=()=>{
                                         <p className="leading-relaxed mb-3">{i.description}</p>
                                         
                                     <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                                    <Image
-                                        
-                                        src={huella}
-                                        alt="imagen logo"
-                                        width={15}
-                                        height={15}
-                                    />&nbsp;&nbsp;<p className="text-black" id="letraLogo">Dog blog</p>
+                                    &nbsp;&nbsp;<p className=" text-xs text-gray-400 mb-10" >Publicado el {i.date}</p>
                                     </div>
                                 </div>
                             </div>
