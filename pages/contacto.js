@@ -12,7 +12,7 @@ const Contacto=()=>{
             <Header/>
                 <div>
                 <section className="text-gray-600 body-font relative">
-                <div class="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className=" bg-white flex flex-col  ">
                             <Image
                                     src={FotoContacto}
@@ -32,10 +32,10 @@ const Contacto=()=>{
                                     />&nbsp;Contáctanos</h3>
                             <p className="leading-relaxed mb-5 text-gray-600">¿Tienes dudas, necesitas asesoramiento? Estamos para ayudarte</p>
                                 <div className="relative mb-4">
-                                    <label for="name" className="leading-7 text-sm text-gray-600">Nombre</label>
+                                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nombre</label>
                                     <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                                 </div>
-                                <div class="relative mb-4">
+                                <div className="relative mb-4">
                                     <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
                                     <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                                 </div>

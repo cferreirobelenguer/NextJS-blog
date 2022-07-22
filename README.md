@@ -21,6 +21,14 @@
 ### images and fonts in folder assets
 ### styles and tailwind config in folder styles
 
+## Chatbot in footer
+
+npm i react-simple-chatbot
+
+## Styles of chatbot with styles-components
+
+npm i styles-components
+
 ## Deploy backend with netlify 🚀
 
 ### $ npm run build
