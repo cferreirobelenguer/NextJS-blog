@@ -28,7 +28,3 @@ npm i react-simple-chatbot
 ## Styles of chatbot with styles-components
 
 npm i styles-components
-
-## Deploy backend with netlify 🚀
-
-### $ npm run build
